@@ -44,6 +44,6 @@ class RedisHandler(logging.Handler):
         ...
         # TODO create emit method for redis logger
 
-    async def _emit(self, record):
+    async def _emit(self, record: logging.LogRecord):
         ...
         # TODO to async part of redis logger
